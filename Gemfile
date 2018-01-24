@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+ruby '2.5.0'
 
 gem 'middleman'
 gem 'middleman-autoprefixer'
-gem "middleman-livereload"
+gem 'middleman-livereload'
+gem 'rake'
+gem 'sassc'
+gem 'slim'
