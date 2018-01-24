@@ -112,11 +112,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 4.2)
-  middleman-autoprefixer (~> 2.7)
-  middleman-livereload (~> 3.4.3)
-  tzinfo-data
-  wdm (~> 0.1)
+  middleman
+  middleman-autoprefixer
+  middleman-livereload
+
+RUBY VERSION
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.16.0
