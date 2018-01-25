@@ -26,9 +26,9 @@ activate :automatic_alt_tags
 
 
 # rebuild redirects for Netlify
-# after_build do |builder|
-#   src = File.join(config[:source],"_redirects")
-#   dst = File.join(config[:build_dir],"_redirects")
-#   builder.thor.source_paths << File.dirname(__FILE__)
-#   builder.thor.copy_file(src,dst)
-# end
+after_build do |builder|
+  src = File.join(config[:source],"_redirects")
+  dst = File.join(config[:build_dir],"_redirects")
+  builder.thor.source_paths << File.dirname(__FILE__)
+  builder.thor.copy_file(src,dst)
+end
